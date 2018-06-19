@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:context="com.example.android.todolist.MainActivity">
+
+        <TextView
+            android:id="@+id/priorityTextView"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/priority_circle"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:text="0"/>
+
+    <TextView
+        android:id="@+id/taskDescription"
+        android:layout_width="159dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="1"
+        android:fontFamily="serif"
+        android:text="Your Name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/cellphone_textView"
+        android:layout_width="238dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Phone Number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/people_textView"
+        android:layout_width="139dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="How Many"
+        android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+

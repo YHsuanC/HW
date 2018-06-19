@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wait List</string>
+    <string name="main_activity_name">Wait List</string>
+    <string name="add_task_activity_name">Add a New Guest</string>
+
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <string name="edit_task_description">Describe your task&#8230;</string>
+    <string name="priority_string">Priority</string>
+    <string name="your_name">Your Name</string>
+    <string name="high_priority">High</string>
+    <string name="med_priority">Medium</string>
+    <string name="low_priority">Low</string>
+    <string name="number_of_people">How Many? : </string>
+    <string name="phone_number">Your Number</string>
+
+    <string name="add_button">Add</string>
+    <string-array name="people">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+
+    </string-array>
+</resources>
